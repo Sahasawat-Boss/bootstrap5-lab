@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
@@ -30,7 +31,10 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#contact">Contact Us</a>
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disable</a>
                     </li>
                 </ul>
             </div>
@@ -78,6 +82,7 @@
     <!-- Main Container -->
     <div class="container">
         <h1 class="text-center p-5 mb-5 mt-5">Tour CNX</h1>
+
         <div class="w-100 bg-dark text-white p-5 mb-5">
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolor reprehenderit explicabo
@@ -99,21 +104,119 @@
 
         <h2 id="destinations" class="fs-1 p-5 mb-5 text-center">Popular Destinations</h2>
 
-        <div class="row">
-            <div class="col">
+        <div class="row pb-4">
+            <div class="col pb-4">
                 <!-- Card 1 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/img5.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nostrum
+                            tempora magnam veritatis voluptatem eos, ratione nam magni, dolorem modi voluptas unde
+                            inventore voluptates autem repellat maxime molestiae explicabo aperiam!</p>
+                        <a href="#" class="btn btn-primary readmore-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col pb-4">
+                <!-- Card 2 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/img5.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title 2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nostrum
+                            tempora magnam veritatis voluptatem eos, ratione nam magni, dolorem modi voluptas unde
+                            inventore voluptates autem repellat maxime molestiae explicabo aperiam!</p>
+                        <a href="#" class="btn btn-primary readmore-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col pb-4">
+                <!-- Card 3 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/img5.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title 3</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nostrum
+                            tempora magnam veritatis voluptatem eos, ratione nam magni, dolorem modi voluptas unde
+                            inventore voluptates autem repellat maxime molestiae explicabo aperiam!</p>
+                        <a href="#" class="btn btn-primary readmore-btn">Read More</a>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <!-- About -->
+        <h2 id="about" class="fs-1 p-5 mt-5 mb-3 text-center">About</h2>
+        <div class="row">
+            <div class="col-6">
+                <div class="bg-dark-subtle border border-3 p-5 mt-5 mb-5">
+                    <h2>Rates</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam velit facilis voluptates
+                        soluta
+                        voluptatem eligendi illum magnam accusantium hic sapiente.</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="bg-secondary text-white p-5 mt-5 mb-5">
+                    <h2>Rates</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam velit facilis voluptates
+                        soluta
+                        voluptatem eligendi illum magnam accusantium hic sapiente.</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="bg-dark-subtle border border-3 p-5 mt-5 mb-5">
+                    <h2>Rates</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam velit facilis voluptates
+                        soluta
+                        voluptatem eligendi illum magnam accusantium hic sapiente.</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="bg-secondary text-white p-5 mt-5 mb-5">
+                    <h2>Rates</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam velit facilis voluptates
+                        soluta
+                        voluptatem eligendi illum magnam accusantium hic sapiente.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Us  -->
+        <h2 id="contact" class="fs-1 p-5 mt-5 mb-3 text-center">Contact Us</h2>
+
+        <div class="w-100 bg-dark text-white p-5 mb-5">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolor reprehenderit explicabo
+                architecto
+                sed praesentium minima. Omnis aliquid itaque nobis eveniet voluptatum exercitationem, eum culpa, nisi
+                dolor
+                temporibus sunt assumenda deserunt rem blanditiis optio molestiae aut saepe harum sequi impedit ipsam?
+                Alias
+                sint, quam, eaque dicta rerum iure corporis nemo quasi placeat beatae veniam, ullam totam non ex
+                veritatis
+                sed quaerat voluptas praesentium cupiditate ducimus eius repellat optio vero. Iste architecto, quis ad
+                repudiandae exercitationem asperiores veritatis optio soluta nostrum tenetur quisquam quam ipsam nulla
+                eveniet nobis fugiat tempore dolore. Explicabo voluptate perspiciatis numquam vel similique! Repellendus
+                rem
+                non similique!
+            </p>
+            <button type="button" class="btn btn-primary">
+                <a href="mailty: sahasawat.rk@gmail.com" class="text-white text-decoration-none">Contact via email</a>
+            </button>
+        </div>
+
+        <h2 id="contact" class="fs-1 p-5 mt-5 mb-3 text-center">Footer</h2>
+        <img src="img/img6.jpeg" class="w-100 mb-5" alt="">
     </div>
 
-
-
-
-
-
-
-
-
+    <footer class="bg-dark text-white text-center text-lg-start">
+        <div class="text-center p-3">
+            © 2024 Copyright:
+            <a class="text-white" href="#">TourCNX.com</a>
+        </div>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
