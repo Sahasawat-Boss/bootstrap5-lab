@@ -1,0 +1,78 @@
+/* GLOBAL */
+body {
+    padding-top: 72px;
+}
+
+/* NAVBAR */
+.custom-nav {
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(10px);
+}
+
+/* HERO */
+.hero-section {
+    min-height: 80vh;
+    background:
+        linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .6)),
+        url("../img/img1.jpeg") center/cover no-repeat;
+}
+
+/* BUTTON */
+.btn-brand {
+    background: #ff7a18;
+    color: #fff;
+    border-radius: 999px;
+    padding: 0.75rem 2rem;
+    border: none;
+}
+
+.btn-brand:hover {
+    background: #ff5c00;
+    color: #fff;
+}
+
+/* CARD */
+.tour-card {
+    border: none;
+    border-radius: 1.25rem;
+    overflow: hidden;
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.tour-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.tour-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .15);
+}
+
+/* INFO BOX */
+.info-box {
+    padding: 2.5rem;
+    border-radius: 1.25rem;
+    height: 100%;
+}
+
+.info-dark {
+    background: #1f2933;
+    color: #fff;
+}
+
+.info-light {
+    background: #f5f7fa;
+}
+
+/* CONTACT */
+.contact-section {
+    background: #111;
+    padding: 4rem 0;
+}
+
+/* FOOTER */
+.footer {
+    background: #000;
+    padding: 1.5rem 0;
+}
