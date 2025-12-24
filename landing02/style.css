@@ -1,6 +1,6 @@
 /* GLOBAL */
 body {
-    padding-top: 72px;
+    padding-top: 56px;
 }
 
 /* NAVBAR */
@@ -19,7 +19,7 @@ body {
 
 /* BUTTON */
 .btn-brand {
-    background: #ff7a18;
+    background: #08704d;
     color: #fff;
     border-radius: 999px;
     padding: 0.75rem 2rem;
@@ -27,7 +27,7 @@ body {
 }
 
 .btn-brand:hover {
-    background: #ff5c00;
+    background: #08704d;
     color: #fff;
 }
 
